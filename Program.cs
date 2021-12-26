@@ -26,10 +26,10 @@ for (int i = 0; i < array.Length; i++)
     array[i] = new Random().Next(-9, 10);
 }
 
+int[] arrayNew = resizeArray(array);
+
 Console.WriteLine("Изначальный массив: ");
 printArray(array);
-
-int[] arrayNew = resizeArray(array);
 
 Console.WriteLine("Массив четных чисел: ");
 printArray(arrayNew);
