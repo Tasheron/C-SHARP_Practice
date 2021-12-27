@@ -2,14 +2,14 @@ class App {
     public static void Demo(){
         int[] array = new int[10];
 
-        ArrayMethods.fillArray(ref array);
+        ArrayMethods.FillArray(ref array);
 
-        int[] newArray = ArrayMethods.resizeArray(array);
+        int[] newArray = ArrayMethods.ResizeArray(array);
 
         Console.WriteLine("Изначальный массив: ");
-        ArrayMethods.printArray(array);
+        ArrayMethods.PrintArray(array);
 
         Console.WriteLine("Массив четных чисел: ");
-        ArrayMethods.printArray(newArray);
+        ArrayMethods.PrintArray(newArray);
     }
 }
